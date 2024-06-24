@@ -6,14 +6,14 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #3d7b80;
     color: white;
     text-align: center;
     padding: 1em 0;
 }
 
 main {
-    max-width: 800px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -32,12 +32,14 @@ main {
 
 .activity-links li {
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
+    margin-left: 28%;
+    list-style-type:decimal-leading-zero;
 }
 
 .activity-links a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #3d7b80;
     font-weight: bold;
 }
 
@@ -48,7 +50,7 @@ main {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #4CAF50;
+    background-color: #3d7b80;
     color: white;
     position: fixed;
     bottom: 0;
